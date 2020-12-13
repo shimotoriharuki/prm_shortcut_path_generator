@@ -3,14 +3,14 @@ clear
 clf
 
 %-----------ファイル名を選択-----------%
-FileName = 'CouseData/2019AllJapan.txt';
-% FileName = 'CouseData/2019Student.txt';
-% FileName = 'CouseData/2019East.txt';
-% FileName = 'CouseData/2018student_points.txt';
-% FileName = 'CouseData/2018alljapan_points.txt';
-% FileName = 'CouseData/2017alljapan_points.txt';
-% FileName = 'CouseData/2016alljapan_points.txt';
-% FileName = 'CouseData/2015alljapan_points.txt';
+% FileName = 'course_data/2019AllJapan.txt';
+% FileName = 'course_data/2019Student.txt';
+% FileName = 'course_data/2019East.txt';
+% FileName = 'course_data/2018student_points.txt';
+% FileName = 'course_data/2018alljapan_points.txt';
+% FileName = 'course_data/2017alljapan_points.txt';
+% FileName = 'course_data/2016alljapan_points.txt';
+FileName = 'course_data/2015alljapan_points.txt';
 
 Position = readmatrix(FileName); %[m}
 OneGridScale = 1e2; %[cm]
